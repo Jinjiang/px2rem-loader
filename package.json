@@ -1,0 +1,26 @@
+{
+  "name": "px2rem-loader",
+  "version": "1.0.0",
+  "description": "css post loader for px2rem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jinjiang/px2rem-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "author": "Jinjiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jinjiang/px2rem-loader/issues"
+  },
+  "homepage": "https://github.com/Jinjiang/px2rem-loader",
+  "dependencies": {
+    "px2rem": "~0.2.2"
+  }
+}
