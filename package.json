@@ -1,6 +1,6 @@
 {
   "name": "px2rem-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "css post loader for px2rem",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Jinjiang/px2rem-loader",
   "dependencies": {
-    "px2rem": "~0.2.2"
+    "px2rem": "~0.2.2",
+    "loader-utils": "^0.2.7"
   }
 }
