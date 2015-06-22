@@ -6,7 +6,7 @@ a [webpack](http://webpack.github.io/) loader for [px2rem](https://github.com/so
 
 ```
 {
-  loaders: [{ test: /\.css$/, loader: "style!css!px2rem?remUnit=75&remPrecision=8" }],
+  loaders: [{ test: /\.css$/, loader: 'style!css!px2rem?remUnit=75&remPrecision=8' }],
 }
 ```
 
