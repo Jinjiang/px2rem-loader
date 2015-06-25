@@ -1,6 +1,4 @@
 var expect = require('chai').expect
-
-var webpack = require('webpack')
 var loader = require('./lib/px2rem-loader')
 
 describe('Loader', function () {
