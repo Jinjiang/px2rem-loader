@@ -2,6 +2,17 @@
 
 a [webpack](http://webpack.github.io/) loader for [px2rem](https://github.com/songsiqi/px2rem)
 
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+[![Downloads][downloads-image]][downloads-url]
+
+[npm-image]: https://img.shields.io/npm/v/px2rem-loader.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/px2rem-loader
+[travis-image]: https://img.shields.io/travis/songsiqi/px2rem-loader.svg?style=flat-square
+[travis-url]: https://travis-ci.org/songsiqi/px2rem-loader
+[downloads-image]: http://img.shields.io/npm/dm/px2rem-loader.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/px2rem-loader
+
 ## webpack config
 
 ```
