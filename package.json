@@ -1,14 +1,14 @@
 {
-  "name": "px2rem-loader",
-  "version": "0.1.7",
-  "description": "css post loader for px2rem",
+  "name": "px2rpx-loader",
+  "version": "0.1.8",
+  "description": "css post loader for px2rpx",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js --slow 2000"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jinjiang/px2rem-loader.git"
+    "url": "https://github.com/aOrz/px2rpx-loader.git"
   },
   "keywords": [
     "webpack",
@@ -17,11 +17,11 @@
   "author": "Jinjiang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jinjiang/px2rem-loader/issues"
+    "url": "https://github.com/aOrz/px2rpx-loader/issues"
   },
-  "homepage": "https://github.com/Jinjiang/px2rem-loader",
+  "homepage": "https://github.com/aOrz/px2rpx-loader",
   "dependencies": {
-    "px2rem": "~0.5.0",
+    "px2rpx": "~0.5.2",
     "loader-utils": "^0.2.7"
   },
   "devDependencies": {
