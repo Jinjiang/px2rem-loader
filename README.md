@@ -20,8 +20,25 @@ a [webpack](http://webpack.github.io/) loader for [px2rem](https://github.com/so
 ## webpack config
 
 ```
-{
-  loaders: [{ test: /\.css$/, loader: 'style!css!px2rem?remUnit=75&remPrecision=8' }]
+module.exports = {
+  // ...
+  module: {
+    rules: [{
+      test: /\.css$/,
+      use: [{
+        loader: 'style-loader'
+      }, {
+        loader: 'css-loader'
+      }, {
+        loader: 'px2rem-loader',
+        // options here
+        options: {
+          remUni: 75,
+          remPrecision: 8
+        }
+      }]
+    }]
+  }
 }
 ```
 
