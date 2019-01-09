@@ -1,0 +1,7 @@
+h1 {
+  width: 480px; /*px*/
+  padding: 0.5em 1em;
+  font-size: 64px;
+  border: 1px solid #333; /*no*/
+  background: #eeeeee;
+}
