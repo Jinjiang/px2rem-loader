@@ -42,4 +42,9 @@ module.exports = {
 }
 ```
 
+
 Please see [px2rem](https://github.com/songsiqi/px2rem) for more information about query parameters of px2rem.
+
+## Example
+
+See an example [here](./examples).
