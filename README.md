@@ -34,7 +34,8 @@ module.exports = {
         // options here
         options: {
           remUnit: 75,
-          remPrecision: 8
+          remPrecision: 8,
+           exclude:/antd\.css/
         }
       }]
     }]
